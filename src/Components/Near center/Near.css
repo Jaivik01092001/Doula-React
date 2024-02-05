@@ -1,0 +1,79 @@
+.bgimagenear {
+  background-image: url("../../Assets/findnear.svg");
+  height: 75vh;
+  background-position: center;
+  background-size: contain;
+}
+.nearcentertitle {
+  font-family: Shippori Mincho;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.ziptext {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border: none;
+  border-radius: 0.6rem;
+  outline: none;
+}
+.findbutton3 {
+  padding: 1rem 4rem;
+  background-color: var(--primary);
+  border: 2px solid var(--white);
+  border-radius: 0.6rem;
+  color: var(--white);
+}
+.locations {
+  background-color: #ffeeda;
+  padding: 1.2rem 5rem 1.2rem 1rem;
+  border-radius: 0.5rem;
+  min-width: 22%;
+  min-height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.locationtext {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.announcement {
+  max-width: 30%;
+}
+
+@media (max-width: 768px) {
+  .bgimagenear {
+    padding: 3rem 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .nearrow2 {
+    flex-direction: column;
+  }
+  .ziptext {
+    padding: 1rem 1rem;
+  }
+  .findlefttitle {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .locations {
+    background-color: #ffeeda;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    min-width: 70%;
+    min-height: 0%;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+}

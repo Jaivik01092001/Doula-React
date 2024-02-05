@@ -1,0 +1,70 @@
+.findpage {
+  background-color: #fff0e7;
+  margin-top: 2rem;
+}
+.findleft {
+  padding-left: 15rem;
+}
+.findlefttitle {
+  font-family: Shippori Mincho;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.finddesc {
+  font-family: Shippori Mincho;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bs {
+  font-family: Shippori Mincho;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.browserimage {
+  padding: 1rem 2rem;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 1rem;
+  color: var(--white);
+}
+.browserimage:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, var(--error), var(--warning));
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all 0.5s ease-in-out;
+}
+.findimage {
+  max-width: 48%;
+}
+.arrowimage {
+  max-width: 15%;
+}
+
+@media (max-width: 768px) {
+  .findimage {
+    display: none;
+  }
+  .findleft {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 2rem 0rem;
+  }
+  .bgimagenear {
+    padding: 3rem 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+}

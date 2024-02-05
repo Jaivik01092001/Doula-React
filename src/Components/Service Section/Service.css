@@ -1,0 +1,92 @@
+/* service */
+#page2 {
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.wedoittitle {
+  font-family: Shippori Mincho;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  margin: 0rem auto;
+  margin-top: 15%;
+  width: fit-content;
+}
+.servicecard {
+  background-color: transparent;
+  /* max-width: 20%;
+    min-height: 20%; */
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 0.8rem;
+  border-radius: 1rem;
+  width: 30%;
+  border: 1px solid #e7e9ec;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.servicecard:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transition: all 0.5s ease-in-out;
+  scale: 1.02;
+}
+.iconbg {
+  background-color: #a4a58c;
+  width: fit-content;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconbg:hover {
+  background-color: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+.iconbg > img {
+  max-width: 80%;
+}
+.servicecardtitle {
+  font-family: Shippori Mincho;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.servicecarddesc {
+  font-family: Shippori Mincho;
+
+  color: var(--gray);
+  font-family: Shippori Mincho;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  #page2 {
+    gap: 2rem;
+  }
+  .wedoittitle {
+    text-align: center;
+    margin-top: 115%;
+  }
+  .servicecard {
+    width: 90%;
+    margin: auto;
+  }
+  .abovecards,
+  .belowcards {
+    flex-direction: column;
+  }
+}
